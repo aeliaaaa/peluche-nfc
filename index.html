@@ -2,10 +2,19 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Test GitHub Pages</title>
+  <title>Peluche magique</title>
 </head>
 <body>
-<h1>Ça fonctionne !</h1>
-<p>Si tu vois ça, GitHub Pages marche correctement.</p>
+<script>
+const urls = [
+  "https://www.canva.com/design/DAG7fwI2uAk/3WOFQx7RRMgFJtYxxV5DYQ/edit?utm_content=DAG7fwI2uAk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  "https://youtu.be/jcGbxTg0E3k?si=4X3d26jrUI2HPTIW",
+  "https://youtu.be/x8JraA4K14c?si=RX9-Ed0FzhIWoUir",
+  "https://fr.wikipedia.org/wiki/Chien"
+];
+
+const randomIndex = Math.floor(Math.random() * urls.length);
+window.location.href = urls[randomIndex];
+</script>
 </body>
 </html>
